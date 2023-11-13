@@ -1,0 +1,95 @@
+/* Banner.css */
+
+/* Styles for the outer container of the Slider */
+.w-full {
+   width:100%;
+  }
+  
+  /* Styles for the Slider component */
+  .slick-slider {
+    position: relative;
+    height: 472px;
+    overflow: hidden;
+  }
+  
+  /* Styles for the dots navigation */
+  .slick-dots {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+     margin-top: 49px;
+     margin-left: 0px;
+     
+    list-style: none;
+  }
+  
+  /* Styles for individual dot items */
+  .slick-dots li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for dot indicators */
+  .slick-dots li button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .Images{
+    width: 100%;
+  }
+  
+  /* Active dot indicator */
+  .slick-dots li.slick-active button {
+    background-color: #262626; /* Set your desired active dot color */
+    border: 3px solid #262626; /* Set your desired active dot border color */
+  }
+  
+  /* Responsive styles for smaller screens */
+ 
+@media (max-width: 667px) { 
+  .slick-dots {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for individual dot items */
+  .slick-dots li {
+    display:inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for dot indicators */
+  .slick-dots li button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .Images{
+    width: 100%;
+  }
+  .slick-slider {
+    position: relative;
+    height:auto;
+    overflow: hidden;
+  }
+  
+  }

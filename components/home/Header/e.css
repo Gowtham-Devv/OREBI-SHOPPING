@@ -1,0 +1,349 @@
+/* HeaderBottom.css */
+.body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Styles for the outermost container */
+.w-full.bg-f5 {
+  background-color: #f5f5f5;
+}
+
+/* Styles for the container with max-width */
+.max-w-container {
+  max-width: 1440px;
+}
+  /* Styles for the flex container */
+.flex.flex-col.lg\:flex-row.items-start.lg\:items-center.justify-between.w-full.px-4.pb-4.lg\:pb-0.h-full.lg\:h-24 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem 0rem 1rem !important; /* Adjust as needed */
+  height: 6rem;
+}
+
+/* Styles for the "Shop by Category" button */
+.flex.h-14.cursor-pointer.items-center.gap-2.text-primary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(38 38 38) !important; /* Adjust to your desired color */
+  gap: 0.5rem;
+  height: 3.5rem !important;
+  display: flex;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.texts {
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  margin-bottom: 0 !important;
+  top: auto !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+.drop {
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  color: rgb(118, 118, 118);
+  background: rgb(38, 38, 38);
+  width: auto;
+  height: auto;
+  z-index: 50;
+  position: absolute;
+  top: 9rem;
+  list-style: none;
+  margin: 0;
+}
+
+
+.drops{
+  transition-duration: 0.3s;
+  color: rgb(156 163 175);
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  border-bottom-width: 1px !important;
+  border-bottom-color: rgb(156 163 175) !important;
+  border-bottom-style:solid ;
+ 
+}
+.drops:hover{
+  color: white !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: white !important;
+  border-bottom-style:solid ;
+}
+/* Styles for the search input container */
+/* Assuming you have a CSS file, you can add these styles */
+
+/* Style the container div */
+.searchs{
+  width: 100%;
+  max-width: 600px; /* This should be adjusted based on your design */
+  height: 50px;
+  font-size: 16px; /* You can adjust the font size as needed */
+  color: #333; /* Text color */
+  background-color: #fff; /* Background color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px; /* Adjust the padding as needed */
+  border-radius: 10px; /* You can adjust the border-radius for rounded corners */
+}
+
+/* Style the input element */
+input{
+  flex: 1;
+  height: 100%;
+  outline: none; /* Remove the outline on focus if desired */
+  font-size: 14px; /* Adjust the font size for the input */
+  color: #666; /* Text color for the input */
+ /* Adjust the placeholder color if needed */
+  /* Add any other input styles you want */
+}
+
+.placeholder{
+  color: lightgray;
+  font-size: 14px !important;
+  font-family:  "DM Sans", sans-serif !important;
+   }
+
+/* Styles for the search input */
+.flex-1.h-full.outline-none {
+  flex: 1;
+  height: 100%;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  /* Adjust to your desired color */
+}
+
+/* Styles for the search icon */
+.w-5.h-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: #333 !important; /* Adjust to your desired color */
+}
+
+/* Styles for the search results container */
+.w-full.mx-auto.h-96.bg-white.top-16.absolute.left-0.z-50.overflow-y-scroll.shadow-2xl.scrollbar-hide.cursor-pointer {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  height: 96px; /* Adjust as needed */
+  background-color: #ffffff;
+  position:absolute !important;
+  top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  z-index: 50;
+  overflow-y: scroll;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 24rem;
+}
+
+/* Styles for the search result items */
+.max-w-600.h-28.bg-gray-100.mb-3.flex.items-center.gap-3 {
+  max-width: 600px !important; /* Adjust as needed */
+  height: 7rem !important; /* Adjust as needed */
+  background-color: #f0f0f0; /* Adjust as needed */
+  margin-bottom: 0.75rem; /* Adjust as needed */
+  align-items: center;
+  gap: 0.75rem; /* Adjust as needed */
+  display: flex;
+}
+
+/* Styles for the product image */
+.w-24 {
+  width: 6rem; /* Adjust as needed */
+}
+
+/* Styles for the product details */
+.gap-1 {
+  gap: 0.25rem;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+
+/* Styles for the product name */
+.font-semibold.text-lg {
+  font-weight: 600;
+  font-size: 1.125rem; /* Adjust to your desired size */
+  margin: 0;
+}
+
+/* Styles for the product description */
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem; /* Adjust to your desired size */
+}
+
+/* Styles for the product price */
+.text-sm {
+  font-size: 0.875rem; /* Adjust to your desired size */
+}
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-primeColor {
+  color: rgb(38 38 38);
+}
+.font-semibold {
+  font-weight: 600;
+}
+.profiles{
+  opacity: 1;
+  color: rgb(118 118 118);
+  padding-bottom: 1.5rem;
+  padding: 1rem;
+  width: 9.7rem;
+  height: auto;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  position: absolute;
+  list-style: none;
+  margin-top: 30px;
+  background: rgb(38, 38, 38);
+}
+.links{
+  text-decoration: none;
+  color: rgb(118 118 118);
+}
+.profiless{
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(156 163 175);
+    cursor: pointer;
+    transition-duration: .3s;
+    border-bottom-width: 1px !important;
+    border-bottom-color: rgb(156 163 175) !important;
+    border-bottom-style:solid ;
+}
+.profiless:hover{
+  color: white !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: white !important;
+  border-bottom-style:solid ;
+}
+/* Styles for the user and cart container */
+.flex.gap-4.mt-2.lg\:mt-0.items-center.pr-6.cursor-pointer.relative {
+  display: flex;
+  gap: 1rem; /* Adjust as needed */
+  margin-top: 0.5rem; /* Adjust as needed */
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Styles for the user icon and dropdown */
+
+
+/* Styles for the cart icon */
+.relative svg {
+  position: relative;
+  color: black;
+}
+
+/* Styles for the cart item count badge */
+.absolute.font-titleFont.top-3.-right-2.text-xs.w-4.h-4.flex.items-center.justify-center.rounded-full.text-white {
+  position: absolute;
+  top: 0.75rem; /* Adjust as needed */
+  right: -0.5rem; /* Adjust as needed */
+  width: 1rem; /* Adjust as needed */
+  height: 1rem; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  border-radius: 50%;
+  /* Adjust to your desired color */
+  color: #fff;
+  background-color: rgb(38 38 38);
+}
+.pb-4 {
+  padding-bottom: 1rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+
+@media (max-width: 575.98px) { 
+
+/* Header container */
+.pb-4 {
+  padding-bottom: 1rem;
+}
+.pxx-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.itemss-start {
+  align-items: flex-start;
+}
+.flexx-col {
+  flex-direction: column;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+
+}
+
+@media (min-width: 960px){
+.lg\:pb-0 {
+    padding-bottom: 0;
+}
+.lg\:items-center {
+  align-items: center;
+}
+.lg\:flex-row {
+  flex-direction: row;
+}
+.lg\:h-24 {
+  height: 6rem;
+}
+}
+

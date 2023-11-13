@@ -1,0 +1,72 @@
+.bg-\[\#F5F5F3\] {
+    background-color: rgb(245 245 243);
+}
+.w-full {
+    width: 100%;
+}
+.pt-10 {
+    padding-top: 2.5rem;
+}
+.pb-20 {
+    padding-bottom: 5rem;
+}
+
+.max-w-container {
+    max-width: 1440px;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.duration-200 {
+    transition-duration: .2s;
+}
+.text-lightTextt {
+    
+    color: rgb(109 109 109);
+}
+.font-normal {
+    font-weight: 400;
+}
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+
+.mt-\[2px\] {
+    margin-top: 2px;
+}
+.mr-\[1px\] {
+    margin-right: 1px;
+}
+.font-medium {
+    font-weight: 500;
+}
+.ml-1 {
+    margin-left: 0.25rem;
+}
+@media (min-width: 667px)
+{
+.md\:items-center {
+    align-items: center;
+}
+.md\:inline-flex {
+    display: inline-flex;
+}
+.md\:mt-0 {
+    margin-top: 0;
+}
+}

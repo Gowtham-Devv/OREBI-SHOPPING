@@ -1,0 +1,90 @@
+
+.pb-10 {
+    padding-bottom: 2.5rem;
+}
+.p-4 {
+    padding: 1rem;
+}
+.bg-gray-100 {
+    background-color: rgb(243 244 246);
+}
+.gap-4 {
+    gap: 1rem;
+}
+.grid-colss-1 {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.grid {
+    display: grid;
+}
+.-mt-5 {
+    margin-top: -1.25rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.py-2 {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.border-b-gray-300 {
+    border-bottom: rgb(209 213 219);
+}
+.border-b-\[1px\] {
+    border-bottom: 1px solid rgb(209 213 219);
+}
+.max-ww-container {
+    max-width: 1440px;
+}
+.gaap-4 {
+    gap: 1rem !important;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+@media (min-width: 667px){
+.mdd\:grid-cols-2 {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+}
+}
+@media (min-width: 1280px){
+    .xl\:grid-cols-6 {
+        grid-template-columns: repeat(6,minmax(0,1fr)) !important;
+    }
+    .xl\:-mt-8 {
+        margin-top: -2rem;
+    }
+    .xl\:col-span-2 {
+        grid-column: span 2/span 2;
+    }
+    .xl\:col-span-3 {
+        grid-column: span 3/span 3;
+    }
+    .xl\:p-14 {
+        padding: 3.5rem;
+    }
+    .xl\:-mt-10 {
+        margin-top: -2.5rem;
+    }
+    .-mt-7 {
+        margin-top: -2.75rem;
+    }
+    
+}

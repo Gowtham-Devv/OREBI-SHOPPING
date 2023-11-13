@@ -1,0 +1,114 @@
+
+.gap-10 {
+    gap: 2.5rem;
+}
+.grid-colls-1 {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+.grid {
+    display: grid;
+}
+
+.flex{
+  display: flex;
+}
+.text-lightText {
+    
+    color: rgb(109 109 109);
+}
+.font-normal {
+    font-weight: 400;
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.mdl{
+    justify-content: space-between;
+}
+.flex-col{
+    flex-direction: column;
+  
+}
+p{
+    margin: 0;
+}
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-bases {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.font-titleFonts {
+    font-family: Poppins,sans-serif;
+}
+.py-10 {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+li{
+    text-decoration: none;
+}
+
+.duration-300 {
+    transition-duration: .3s;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.w-9 {
+    width: 2.25rem;
+}
+.h-9 {
+    height: 2.25rem;
+}
+.flex {
+    display: flex;
+}
+ button {
+    cursor: pointer;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.mr-6{
+    margin-right: 1.5rem;
+}
+.gap-10 {
+    gap: 2.5rem !important;
+}
+
+@media (min-width: 1280px){
+.grid-cols-3 {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+}
+
+@media (min-width: 768px){
+.gap-4 {
+    gap: 1rem;
+}
+.flex-row{
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+
+}
+@media (min-width: 667px){
+.grid-cols-2 {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}}

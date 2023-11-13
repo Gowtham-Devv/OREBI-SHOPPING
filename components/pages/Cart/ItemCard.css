@@ -1,0 +1,188 @@
+/* ItemCard.css */
+
+/* Style for the entire card */
+.w-full {
+    width: 100%;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .border {
+    border: 1px solid #e2e8f0; /* You can adjust the border color */
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Style for the left side of the card */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.col-span-55 {
+    grid-column: span 5/span 5;
+}
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-4 {
+    gap: 1rem; /* Adjust the gap between items */
+  }
+  
+  .ml-4 {
+    margin-left: 1rem;
+  }
+  
+  /* Style for the delete button and image */
+
+  
+  .hover\:text-red-500:hover {
+    color: #ff0000; /* Change to your desired hover color */
+  }
+  
+  .duration-300 {
+    transition: color 0.3s ease;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .w-32 {
+    width: 8rem; /* Adjust the image width */
+  }
+  .font-size{
+    font-size: 16px;
+    font-family: poppins,sans-serif;
+   
+  }
+  
+  .h-32 {
+    height: 8rem; /* Adjust the image height */
+  }
+  
+  .font-titleFont {
+    font-family: 'YourTitleFont', sans-serif; /* Replace with your font */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  .flexx{
+    display: flex !important;
+  }
+  
+  /* Style for the right side of the card */
+  .justify--between {
+    justify-content: space-between !important;
+  }
+  
+  .py--4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .px--4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+ 
+  .gap-6 {
+    gap: 1.5rem; /* Adjust the gap between elements */
+  }
+  
+
+  
+  /* Style for the price, quantity, and total */
+  .text-lg {
+    font-size: 1.125rem; /* Adjust the font size */
+  }
+  
+  .w-1 {
+    width: 33.3333%;
+  }
+  
+  /* Style for the quantity adjustment buttons */
+  .bg-gray-100 {
+    background-color: #f7fafc; /* Adjust the background color */
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem; /* Adjust the font size */
+  }
+  
+  .hover\:bg-gray-300:hover {
+    background-color: #edf2f7; /* Adjust the hover background color */
+  }
+  
+  .border-\[\1px\] {
+    border-width: 1px;
+  }
+  
+  .border-gray-300 {
+    border-color: #e2e8f0; /* Adjust the border color */
+  }
+  
+  .hover\:border-gray-300:hover {
+    border-color: #e2e8f0; /* Adjust the hover border color */
+  }
+  
+  /* Style for the total price */
+  .font-bold {
+    font-weight: bold;
+  }
+  .flex-col {
+    flex-direction: column !important;
+}
+
+  @media (min-width: 768px){
+    .mdl\:px-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mdl\:py-0 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .mdl\:gap-0 {
+        gap: 0;
+    }
+    .mdl\:col-span-3 {
+        grid-column: span 3/span 3 !important;
+    }
+    .flexx{
+        display: flex;
+    }
+    .mdl\:flexx-row {
+        flex-direction: row !important;
+    }
+
+  }
+
+
+

@@ -1,0 +1,238 @@
+.w-full{
+  width: 100%;
+}
+.h-full{
+  height: 100%;
+}
+.relative{
+  position: relative;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.max-h-80 {
+  max-height: 20rem !important;
+}
+.left-8 {
+  left: 2rem;
+}
+.top-6 {
+  top: 1.5rem;
+}
+.absolute {
+  position: absolute;
+}
+.duration-700 {
+  transition-duration: .7s;
+}
+.bg-white {
+  background-color: rgb(255 255 255)
+}
+.h-32 {
+  height: 8rem;
+}
+.-bottom-\[130px\] {
+  bottom: -130px;
+}
+.absolute {
+  position: absolute;
+}
+.font-titleFont {
+  font-family: Poppins,sans-serif;
+}
+.px-2 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.border-r {
+  border-right: 1px solid #F0F0F0;
+}
+.border-l {
+  border-left: 1px solid #F0F0F0;
+}
+.gap-11 {
+  gap: 0.5rem !important;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.flex-col {
+  flex-direction: column;
+}
+ ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.texts{
+  color: rgb(118 118 118) !important;
+}
+.duration-300 {
+  transition-duration: .3s;
+}
+.text-\[\#767676\] {
+  color: rgb(118 118 118);
+}
+.font-normaal {
+  font-weight: 400 !important;
+}
+.text-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.borderr-b-gray-200{
+
+  border-bottom-color: rgb(229 231 235) !important;
+}
+.borderr-b-\[1px\] {
+  border-bottom: 1px solid #F0F0F0;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+.w-full {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.border-t-0 {
+  border-top-width: 0;
+}
+.border-\[1px\] {
+  border-width: 1px;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.font-titleFont {
+  font-family: Poppins,sans-serif;
+}
+.justify-between {
+  justify-content: space-between !important;
+}
+.items-center {
+  align-items: center;
+}
+.text-primeColor {
+  color: rgb(38 38 38);
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem;
+}
+h2{
+  margin: 0;
+}
+.text-\[14px\] {
+  font-size: 14px;
+}
+p{
+  margin: 0;
+}
+.border-t-0{
+  border-top: 0 !important;
+}
+.border-b-0{
+  border-bottom: 0 !important;
+}
+.texxt-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.group:hover .hovers{
+  bottom: 0;
+}
+.lists:hover{
+  color: black;
+  border-color: #999 !important;
+ cursor: pointer;
+}
+/* CSS for screens with a maximum width of 575px */
+@media (max-width: 575px) {
+  .max-w-80 {
+    max-width: 20rem; /* Adjust as needed */
+  }
+
+  .py-6 {
+    padding-top: 1.5rem; /* Adjust as needed */
+    padding-bottom: 1.5rem; /* Adjust as needed */
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .gap-1 {
+    gap: 0.25rem; /* Adjust as needed */
+  }
+
+  .border {
+    border: 1px solid #ddd; /* Adjust border style and color as needed */
+  }
+
+  .border-t-0 {
+    border-top: 0; /* Remove top border */
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .font-titleFont {
+    font-family: Poppins,sans-serif; /* Define your font styles for 'font-titleFont' class */
+  }
+
+  .text-lg {
+    font-size: 1.125rem; /* Adjust as needed */
+  }
+
+  .text-primeColor {
+    color: #007bff; /* Adjust the color as needed */
+    font-weight: bold;
+  }
+
+  .text-\[\#767676\] {
+    color: #767676; /* Adjust the color as needed */
+  }
+
+  .text-\[\14px\] {
+    font-size: 0.875rem; /* Adjust as needed */
+  }
+  .w-full{
+    width: 100%;
+  }
+  .h-full{
+    height: 100%;
+  }
+
+  /* Define other styles as needed for elements within this breakpoint */
+}

@@ -1,0 +1,63 @@
+/* SampleNextArrow.css */
+
+.w- {
+    width: 3.5rem !important;
+  }
+  
+  .h- {
+    height: 3.5rem !important;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .bg-dark {
+    background-color: #343a40; /* You can change this color as needed */
+  }
+  
+  .bg-opacity-40 {
+    opacity: 0.4;
+  }
+  
+  .hover-bg-opacity-100:hover {
+    opacity: 1;
+    transition: 300ms; /* 300ms duration for the opacity transition */
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .top {
+    top: 35%;
+  }
+  
+  .end-2 {
+    right: 0.5rem !important;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* You can adjust the font size as needed */
+  }
+  

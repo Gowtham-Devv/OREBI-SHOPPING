@@ -1,0 +1,65 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .prevLocation{
+    font-size: 0.875rem !important;
+  }
+  .max{
+    max-width: 1440px !important;
+  }
+
+  .pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  
+
+.text-lightText {
+    color: rgb(109 109 109);
+}
+.text-basee {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.maxx {
+    max-width: 600px !important;
+}
+  
+  .color-gray {
+    color: #777; /* You can adjust the color code as needed */
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-primeColor {
+  /* Replace 'yourColor' with the desired color code */
+    font-weight: 600;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* You can adjust the font size as needed */
+  }
+ .duration-300 {
+    transition-duration: .3s;
+}
+.text-white {
+    
+    color: rgb(255 255 255);
+}
+.bg-primeColor {
+    background-color: rgb(38 38 38);
+}
+.w-52 {
+    width: 13rem;
+}
+.h-10 {
+    height: 2.5rem;
+}
+ button {
+    cursor: pointer;
+}

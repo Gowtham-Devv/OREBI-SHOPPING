@@ -1,0 +1,69 @@
+
+.font--semibold {
+    font-weight: 600;
+}
+.text--3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.font--titleFont {
+    font-family: Poppins,sans-serif;
+}
+
+.py-6 {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+.gap-6 {
+    gap: 1.5rem;
+}
+.flex-col {
+    flex-direction: column;
+}
+.w-\[500px\] {
+    width: 500px;
+}
+.h-auto {
+    height: auto;
+}
+.flex {
+    display: flex;
+}
+.borders{
+    border: 0;
+   
+}
+.duration-200 {
+    transition-duration: .2s;
+}
+.text-gray-200 {
+  
+    color: rgb(229 231 235);
+}
+.tracking-wide {
+    letter-spacing: .025em;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.font-titleFont {
+    font-family: Poppins,sans-serif;
+}
+.bg-primeColor {
+   
+    background-color: rgb(38 38 38);
+}
+.w-44 {
+    width: 11rem;
+}
+.h-10 {
+    height: 2.5rem;
+}
+button {
+    cursor: pointer;
+}

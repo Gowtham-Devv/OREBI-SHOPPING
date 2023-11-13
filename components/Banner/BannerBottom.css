@@ -1,0 +1,85 @@
+/* BannerBottom.css */
+.container-fluidd {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 0;
+  }
+  .max-w-container{
+    max-width: 1440px;
+  }
+  .containerss {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+  }
+  .px--4{
+    padding: 1rem 1rem;
+  }
+  
+  /* Styles for each feature box */
+  .fbox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 0.5rem;
+    width: 18rem !important; /* You can adjust the width as needed */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .feature-box:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .font-weight-bold {
+    /* Adjust the size as needed */
+    text-align: center;
+    width:1.5rem;
+    font-weight: bold;
+    font-family:sans-serif;
+  }
+  
+  .text-light{
+    font-size: 1rem; /* Adjust the size as needed */
+    color: rgb(109 109 109) !important; /* Adjust the color as needed */
+    line-height: 1.5rem;
+    margin: 0;
+  }
+
+  /* Styling for the specific feature boxes */
+  .warranty-box {
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+  .shipping-box {
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+  .return-policy-box {
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+ @media (max-width:667px){
+
+.item-center{
+  align-items: center;
+}
+
+ }
+
+
+  @media (min-width: 667px) {
+
+.md\:flex-row{
+   flex-direction: row;
+}
+.w-72 {
+  width: 18rem;
+}
+
+   }

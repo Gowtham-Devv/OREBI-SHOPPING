@@ -1,0 +1,89 @@
+/* NewArrivals.css */
+
+/* Style the container of the NewArrivals component */
+.w-100 {
+    width: 100%;
+    padding-bottom: 4rem; /* Adjust the padding as needed */
+  }
+  
+  /* Style the heading element */
+  .Heading {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 1rem; /* Adjust the margin as needed */
+  }
+  
+  /* Style the individual product container */
+  .px-2 {
+    padding: 0 0.5rem; /* Adjust the padding as needed */
+  }
+  
+  /* Style the Product component elements */
+  .Products {
+    border: 1px solid #ddd; /* Example border style */
+    padding: 1rem; /* Adjust the padding as needed */
+    text-align: center;
+  }
+  
+  /* Add specific styles for the product image, title, price, color, badge, and description within the .Products component */
+  
+  .Products img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Products .productName {
+    font-weight: bold;
+  }
+  
+  .Products .price {
+    color: #007bff; /* Example price color */
+  }
+  
+  .Products .color {
+    color: #555; /* Example color text color */
+  }
+  
+  .Products .badge {
+    background-color: #28a745; /* Example badge background color */
+    color: #fff; /* Example badge text color */
+    padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+    border-radius: 0.25rem; /* Adjust border radius as needed */
+  }
+  
+  .Products .des {
+    font-size: 0.875rem; /* Example description font size */
+    color: #888; /* Example description text color */
+  }
+  
+  /* Style the Slider component and its arrows (SampleNextArrow and SamplePrevArrow) */
+  
+  .slick-slider {
+    position: relative;
+  }
+  /* Define CSS for the list item class */
+.li {
+  color: #767676; /* Default text color */
+  font-size: 0.875rem; /* 14px (assuming 16px as the default font size) */
+  font-weight: normal; /* Normal font weight */
+  border-bottom: 1px solid #e5e5e5; /* Default gray border */
+
+  /* Flex layout for items within the list item */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem; /* Adjust the gap between items */
+
+  /* Apply hover styles */
+  transition: color 0.3s, border-color 0.3s, cursor 0.3s;
+}
+
+/* CSS for screens with a maximum width of 575px */
+@media (max-width: 575px) {
+  /* Add your CSS styles here */
+  .w-100 {
+    width: 100%;
+  }
+  .pb-4 {
+    padding-bottom: 1rem; /* You can adjust the value as needed */
+  }
+}

@@ -1,0 +1,37 @@
+/* Price.css */
+
+/* Styling for the container div */
+.price-container {
+    cursor: pointer;
+  }
+  
+  /* Styling for the title */
+ 
+  
+  /* Styling for the list of price items */
+  .price-list {
+    list-style: none; /* Remove list bullets */
+  }
+  
+  /* Styling for individual price items */
+  .price-item {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1rem;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    
+    color: #767676;
+    transition: color 300ms, border-color 300ms;
+  }
+  
+  /* Styling for price items on hover */
+  .price-item:hover {
+    /* Add your hover styles here */
+    color: black; /* Change to your desired hover text color */
+    border-color: #999; /* Change to your desired hover border color */
+  }
+  

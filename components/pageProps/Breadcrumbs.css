@@ -1,0 +1,87 @@
+/* Breadcrumbs.css */
+
+/* Styles for the outer container */
+.w-full {
+  width: 100%;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+h1,p{
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-3 {
+  gap: 0.75rem !important;
+}
+
+/* Styles for the title */
+.text-5xl {
+  font-size: 3rem;
+}
+
+.text-primeColor {
+  color: rgb(38 38 38);
+}
+
+.font-titleFont {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+  
+}
+
+/* Styles for the breadcrumb text */
+.text-sm{
+  font-size: 0.875rem !important;
+  line-height:1.25rem !important ;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-lightTextt {
+  color: rgb(109 109 109);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+/* Styles for the breadcrumb arrow icon */
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.15rem;
+}
+
+/* Styles for the location path */
+.font-semiboldd {
+  font-weight: 600;
+  font-family: 'DM Sans',sans-serif;
+
+}
+@media (min-width: 1280px){
+.xl\:py-10 {
+    padding-bottom: 2.5rem !important;
+    padding-top: 2.5rem !important;
+}
+}

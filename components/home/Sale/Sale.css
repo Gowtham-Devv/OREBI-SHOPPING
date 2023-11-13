@@ -1,0 +1,43 @@
+.py-66{
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.gap--4{
+    gap: 1rem;
+}
+.h-50 {
+    height: 50% !important;
+}
+.w-1000{
+    width: 100% !important;
+}
+
+.lg-gap-10{
+    gap: 2.5rem !important;
+}
+.mx-autoo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.h-1\/2 {
+    height: 50%;
+}
+
+@media (min-width: 960px)
+ {
+   .lg-w-50{
+    width: 50%;
+   }
+ }

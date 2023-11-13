@@ -1,0 +1,420 @@
+/* Cart.css */
+
+/* Style for the entire cart container */
+.max-w-container {
+    max-width: 1440px;
+  }
+  .font-s{
+    font-size: 18px;
+    font-family: "poppins",sans-serif;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Style for the breadcrumbs */
+  .pb-20 {
+    padding-bottom: 5rem;
+  }
+  
+  /* Style for the header row of the cart items */
+  .h-20 {
+    height: 5rem; /* Adjust the height of the header row */
+  }
+  
+  .bg-\[\#F5F7F7\] {
+    background-color: #f5f7f7; /* Adjust the background color of the header row */
+  }
+  
+ 
+  
+  .hidden {
+    display: none;
+  }
+  
+  .lgl\:grid {
+    display: grid;
+  }
+  
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  
+  .place-content-center {
+    place-content: center;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Adjust the font size */
+  }
+  
+  .font-titleFont {
+    font-family: 'YourTitleFont', sans-serif; /* Replace with your font */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  /* Style for individual item cards */
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+  
+  /* Style for the reset cart button */
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .bg-red-500 {
+    background-color: #ff0000; /* Adjust the background color of the reset button */
+  }
+  
+  .text-white {
+    color: #ffffff; /* Adjust the text color of the reset button */
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .hover\:bg-red-700:hover {
+    background-color: #cc0000; /* Adjust the hover background color of the reset button */
+  }
+  
+  .reds {
+    color: #ff0000; /* Adjust the text color of the reset button */
+  }
+  
+  .duration-300 {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the coupon input and update button */
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .border {
+    border: 1px solid #e2e8f0; /* Adjust the border color */
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem; /* Adjust the gap between elements */
+  }
+  
+  .mdl\:gap-0 {
+    gap: 0;
+  }
+  
+  .w-44 {
+    width: 11rem; /* Adjust the width of the coupon input */
+  }
+  
+  .mdl\:w-52 {
+    width: 13rem; /* Adjust the width of the coupon input for medium screens */
+  }
+  
+  .h-8 {
+    height: 2rem; /* Adjust the height of the coupon input */
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .border-gray-400 {
+    border-color: #cbd5e0; /* Adjust the border color */
+  }
+  
+  .outline-none {
+    outline: none;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem; /* Adjust the font size */
+  }
+  
+  /* Style for the cart totals section */
+  .max-w-7xl {
+    max-width: 80rem; /* Adjust the max width of the container */
+  }
+  
+  .w-96 {
+    width: 24rem; /* Adjust the width of the container for large screens */
+  }
+  
+  .w-52 {
+    width: 13rem; /* Adjust the width of the button */
+  }
+  
+  .h-10 {
+    height: 2.5rem; /* Adjust the height of the button */
+  }
+  
+ 
+  
+  .hover\:bg-black:hover {
+    background-color: #000000; /* Adjust the hover background color of the button */
+  }
+  
+  .duration-300 {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the empty cart message */
+  .text-xl {
+    font-size: 1.25rem; /* Adjust the font size */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem; /* Adjust the font size */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  -mt-2 {
+    margin-top: -0.5rem; /* Adjust the negative margin */
+  }
+  
+  /* Style for the Continue Shopping button */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .active\:bg-gray-900:active {
+    background-color: #1a202c; /* Adjust the active background color of the button */
+  }
+  
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .font-titleFont {
+    font-family: 'YourTitleFont', sans-serif; /* Replace with your font */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Adjust the font size */
+  }
+  
+  .text-gray-200 {
+    color: #edf2f7; /* Adjust the text color */
+  }
+  
+  .hover\:text-white:hover {
+    color: #ffffff; /* Adjust the hover text color */
+  }
+  
+  .duration-300 {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Additional styling for the motion animation */
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  /* Style for the lonely cart animation */
+  .gap-4 {
+    gap: 1rem; /* Adjust the gap between elements */
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff; /* Adjust the background color */
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem; /* Adjust the border radius */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Adjust the box shadow */
+  }
+  
+  /* Style for the continue shopping button in the lonely cart animation */
+  .active\:bg-gray-900:active {
+    background-color: #1a202c; /* Adjust the active background color of the button */
+  }
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.py-4 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.border, .border-\[1px\] {
+    border-width: 1px;
+}
+.gap-2 {
+    gap: 0.5rem;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.col-span-5 {
+    grid-column: span 5/span 5;
+}
+.flex {
+    display: flex;
+}
+.gap-4 {
+    gap: 1rem;
+}
+.flexx-col {
+    flex-direction: column;
+}
+.w-96 {
+    width: 24rem;
+}
+.flex {
+    display: flex;
+}
+.text-right {
+    text-align: right;
+}
+.font-medium {
+    font-weight: 500;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.py-1\.5 {
+    padding-bottom: 0.375rem;
+    padding-top: 0.375rem;
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.border-gray-400 {
+    border-color: rgb(156 163 175);
+}
+.border-b-0 {
+    border-bottom-width: 0;
+}
+ .border-\[1px\] {
+    border: 1px solid black;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+
+
+
+  @media (min-width: 768px){
+.mdl\:col-span-2 {
+    grid-column: span 2/span 2;
+}
+  }
+  @media (max-width: 1024px){
+   .hidden{
+    display: none;
+   }
+   .mdl\:flexx-row {
+    flex-direction: row !important;
+}
+.mdl\:gap-0 {
+    gap: 0;
+}
+      }
+    
+
+

@@ -1,0 +1,47 @@
+/* Color.css */
+
+/* Styling for the container div */
+
+  
+  /* Styling for the clickable title */
+  .color-title {
+    cursor: pointer;
+  }
+  
+  /* Styling for the title with icons */
+
+  /* Styling for the list of colors */
+  .color-list {
+    list-style: none; /* Remove list bullets */
+  }
+  
+  /* Styling for individual color items */
+  .color-item {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1rem;
+    font-family: "DM Sans",sans-serif;
+   font-weight: 500;
+    
+  }
+
+  
+  /* Styling for the color dot */
+  .color-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #999; /* Default color for the dot */
+    border-radius: 9999px;
+  }
+  
+  /* Styling for individual color items on hover */
+  /* .color-item:hover { */
+    /* Add your hover styles here */
+    /* For example, you can change the color of the dot on hover */
+    /* color: black;  */
+    /* Change to your desired hover color */
+  /* } */
+  

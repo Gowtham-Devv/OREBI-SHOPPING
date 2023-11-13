@@ -1,0 +1,64 @@
+/* SamplePrevArrow.css */
+
+.w- {
+    width: 3.5rem !important;
+  }
+  
+  .h- {
+    height: 3.5rem !important;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .bg-dark {
+    background-color: #343a40; /* You can change this color as needed */
+  }
+  
+  .bg-opacity-40 {
+    opacity: 0.4;
+  }
+  
+  .hover-bg-opacity-100:hover {
+    opacity: 1;
+    transition: 300ms; /* 300ms duration for the opacity transition */
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .z-10 {
+    z-index: 10 !important; /* Set the z-index to 10 as an example; you can adjust as needed */
+  }
+  
+  .top-35 {
+    top: 35%; /* Adjust the percentage as needed */
+  }
+  
+  .start-2 {
+    left: 0.5rem !important; /* For Bootstrap-like "start" positioning */
+  }
+  
+ 

@@ -1,0 +1,139 @@
+.justify-betweenn {
+  justify-content: space-between !important;
+}
+.flex-col {
+  flex-direction: column;
+}
+.w-10000 {
+  width: 100% !important;
+  padding: 0 !important;
+}
+.flex {
+  display: flex;
+}
+.gap-44 {
+  gap: 1rem !important;
+}
+.item-center {
+  align-items: center;
+}
+.text-white {
+  color: rgb(255 255 255);
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.bg-primeColor {
+  background-color: rgb(38 38 38);
+}
+.justify-center {
+  justify-content: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-8 {
+  width: 2rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.text-\[\#737373\] {
+  color: rgb(115 115 115);
+}
+.text-primeColor {
+  color: rgb(38 38 38);
+}
+
+.textt-sm {
+    font-size: 1rem !important;
+    line-height: 1.25rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem !important;
+  padding-top: 0.25rem !important;
+}
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.border-gray-200 {
+  border: 1px solid rgb(229 231 235) !important;
+  opacity: 1;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.dark\:placeholder-gray-400{
+ 
+  font-weight: 400 !important;
+}
+.appearance-none {
+  appearance: none;
+}
+.block {
+  display: block;
+}
+.border-gray-300 {
+  border: 1px solid rgb(209 213 219);
+}
+.border-\[1px\] {
+  border-width: 1px !important;
+}
+.gap-2{
+  gap: 0.5rem !important;
+}
+.focus-within\:outline-none{
+outline: none;
+} 
+.focus-visible\:border-primeColor{
+border-color:  rgb(38 38 38);
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+.absolute {
+  position: absolute;
+}
+.color{
+  color: gray !important;
+  font-size: large;
+}
+svg{
+  vertical-align: middle;
+}
+.relative{
+  position: relative;
+}
+.right-3 {
+    right: 0.3rem !important;
+}
+.top-2\.5 {
+    vertical-align: middle;
+}
+@media (min-width: 667px) {
+  .md\:items-center {
+    align-items: center !important;
+  }
+  .md\:flex-row {
+    flex-direction: row !important;
+  }
+  .md\:gap-6 {
+    gap: 1.5rem !important;
+  }
+  .md\:mt-0 {
+    margin-top: 0 !important;
+  }
+  .md\:w-52 {
+    width: 13rem !important;
+}
+.md\:right-4 {
+  right: 1rem;
+}
+.md\:w-20 {
+  width: 5rem;
+}
+}

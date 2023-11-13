@@ -1,0 +1,37 @@
+/* button style */
+
+.duration-300 {
+    transition-duration: .3s;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+}
+.font-bold {
+    font-weight: 700;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.font-bodyFont {
+    font-family: 'DM Sans',sans-serif;
+}
+.bg-primeColor {
+    background-color: rgb(38 38 38);
+}
+.w-\[185px\] {
+    width: 185px;
+}
+.h-\[50px\] {
+    height: 50px;
+}
+ button {
+    cursor: pointer;
+}
+ button {
+    background-image: none;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+}

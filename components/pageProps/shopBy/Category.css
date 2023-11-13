@@ -1,0 +1,42 @@
+/* Category.css */
+
+/* Styling for the container div */
+.w-full {
+    width: 100%;
+  }
+  
+  /* Styling for the category title */
+ 
+  
+  /* Styling for the list of category items */
+  .category-list {
+    list-style: none; /* Remove list bullets */
+  }
+  
+  /* Styling for individual category items */
+  .category-item {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #767676;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    
+  }
+  
+  /* Styling for the icon (plus sign) in categories with icons */
+  .category-icon {
+    font-size: 10px; /* Font size for the icon */
+    color: #999; /* Default icon color */
+    cursor: pointer;
+    transition: color 300ms;
+  }
+  
+  /* Styling for the icon on hover */
+  .category-icon:hover {
+    color: black; /* Change to your desired hover color */
+  }
+  

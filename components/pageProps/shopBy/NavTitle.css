@@ -1,0 +1,17 @@
+.pb-5{
+    padding-bottom: 1.25rem !important;
+}
+h3{
+    margin: 0;
+}
+.lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.text-primeColor {
+  
+    color: rgb(38 38 38);
+}
+.font-bold {
+    font-weight: 700;
+}
